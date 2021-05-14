@@ -15,6 +15,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compile group: 'org.postgresql', name: 'postgresql', version: '9.3-1104-jdbc41'
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation group: 'com.vladmihalcea', name: 'hibernate-types-52', version: '1.0.0'
